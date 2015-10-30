@@ -1,0 +1,24 @@
+[
+  {
+    "repository": "android_device_qcom_common",
+    "target_path": "device/qcom/common"
+  },
+  {
+    "repository": "android_external_mm-dash",
+    "target_path": "external/mm-dash"
+  },
+  {
+    "repository": "android_hardware_qcom_fm",
+    "target_path": "hardware/qcom/fm"
+  },
+  {
+    "repository": "TecnoDV/android_kernel_alcatel_msm8916",
+    "target_path": "kernel/alcatel/msm8916",
+    "remote": "github"
+  },
+  {
+    "repository": "TecnoDV/proprietary_vendor_alcatel",
+    "target_path": "vendor/alcatel",
+    "remote": "github"
+  }
+]
