@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,18 +12,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
 
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-
-# Inherit from lettuce device
-$(call inherit-product, device/alcatel/alto45/device.mk)
-
-# Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := alto45
-PRODUCT_NAME := full_alto45
-PRODUCT_BRAND := Alcatel
-PRODUCT_MODEL := alto45
-PRODUCT_MANUFACTURER := Alcatel
-
-$(call inherit-product-if-exists, vendor/alcatel/alto45/alto45-vendor.mk)
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/full_alto45.mk
