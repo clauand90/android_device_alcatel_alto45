@@ -28,11 +28,7 @@ ifeq ($(TARGET_DEVICE),alto45)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.qualcomm.location
-<<<<<<< HEAD
 LOCAL_MODULE_OWNER := $VENDOR
-=======
-LOCAL_MODULE_OWNER := alcatel
->>>>>>> origin/CM-12.1
 LOCAL_SRC_FILES := proprietary/priv-app/com.qualcomm.location.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
@@ -43,11 +39,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilmsgtunnel
-<<<<<<< HEAD
 LOCAL_MODULE_OWNER := $VENDOR
-=======
-LOCAL_MODULE_OWNER := alcatel
->>>>>>> origin/CM-12.1
 LOCAL_SRC_FILES := proprietary/app/qcrilmsgtunnel.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
@@ -57,11 +49,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := shutdownlistener
-<<<<<<< HEAD
 LOCAL_MODULE_OWNER := $VENDOR
-=======
-LOCAL_MODULE_OWNER := alcatel
->>>>>>> origin/CM-12.1
 LOCAL_SRC_FILES := proprietary/app/shutdownlistener.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
@@ -71,11 +59,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
-<<<<<<< HEAD
 LOCAL_MODULE_OWNER := $VENDOR
-=======
-LOCAL_MODULE_OWNER := alcatel
->>>>>>> origin/CM-12.1
 LOCAL_SRC_FILES := proprietary/app/TimeService.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
@@ -85,7 +69,6 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
-<<<<<<< HEAD
 LOCAL_MODULE_OWNER := $VENDOR
 LOCAL_SRC_FILES := proprietary/lib/libloc_api_v02.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)
@@ -99,40 +82,14 @@ LOCAL_MODULE := libloc_ds_api
 LOCAL_MODULE_OWNER := $VENDOR
 LOCAL_SRC_FILES := proprietary/lib/libloc_ds_api.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)
-=======
-LOCAL_MODULE_OWNER := alcatel
-LOCAL_SRC_FILES := proprietary/lib/libloc_api_v02.so
-LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)
->>>>>>> origin/CM-12.1
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-<<<<<<< HEAD
 LOCAL_MODULE := libHevcSwDecoder
 LOCAL_MODULE_OWNER := $VENDOR
-LOCAL_SRC_FILES := proprietary/vendor/lib/libHevcSwDecoder.so
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
-=======
-LOCAL_MODULE := libloc_ds_api
-LOCAL_MODULE_OWNER := alcatel
-LOCAL_SRC_FILES := proprietary/lib/libloc_ds_api.so
-LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)
->>>>>>> origin/CM-12.1
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-<<<<<<< HEAD
-LOCAL_MODULE := libtime_genoff
-LOCAL_MODULE_OWNER := $VENDOR
-=======
-LOCAL_MODULE := libHevcSwDecoder
-LOCAL_MODULE_OWNER := alcatel
 LOCAL_SRC_FILES := proprietary/vendor/lib/libHevcSwDecoder.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
 LOCAL_MODULE_TAGS := optional
@@ -142,8 +99,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff
-LOCAL_MODULE_OWNER := alcatel
->>>>>>> origin/CM-12.1
+LOCAL_MODULE_OWNER := $VENDOR
 LOCAL_SRC_FILES := proprietary/vendor/lib/libtime_genoff.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
 LOCAL_MODULE_TAGS := optional
@@ -153,7 +109,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqct_resampler
-LOCAL_MODULE_OWNER := alcatel
+LOCAL_MODULE_OWNER := $VENDOR
 LOCAL_SRC_FILES := proprietary/vendor/lib/libqct_resampler.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
 LOCAL_MODULE_TAGS := optional
@@ -163,11 +119,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmm-abl
-<<<<<<< HEAD
 LOCAL_MODULE_OWNER := $VENDOR
-=======
-LOCAL_MODULE_OWNER := alcatel
->>>>>>> origin/CM-12.1
 LOCAL_SRC_FILES := proprietary/vendor/lib/libmm-abl.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
 LOCAL_MODULE_TAGS := optional
